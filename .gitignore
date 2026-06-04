@@ -1,0 +1,8 @@
+.claude/
+.cache/
+workspace/
+templates/
+
+# Machine-specific MCP runtime config (absolute interpreter paths).
+# Commit .mcp.json.example instead; copy it to .mcp.json and fill in local paths.
+.mcp.json

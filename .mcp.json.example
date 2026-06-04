@@ -1,0 +1,17 @@
+{
+  "_comment": "Copy to .mcp.json and replace the command path with your office-suite env python (run `conda activate office-suite && which python`). Args must be absolute paths to the server scripts. The servers self-inject their subprocess PATH, so no env block is required.",
+  "mcpServers": {
+    "quarto": {
+      "command": "/ABSOLUTE/PATH/TO/conda/envs/office-suite/bin/python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/ai-office-suite/mcp_servers/quarto_mcp/server.py"
+      ]
+    },
+    "latex": {
+      "command": "/ABSOLUTE/PATH/TO/conda/envs/office-suite/bin/python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/ai-office-suite/mcp_servers/latex_mcp/server.py"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+name: office-suite
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - quarto
+  - tectonic
+  - pip
+  - pip:
+    - pymupdf
+    - pdfplumber
+    - click
+    - rich
+    - pydantic
