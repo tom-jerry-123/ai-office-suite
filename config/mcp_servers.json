@@ -1,0 +1,29 @@
+{
+  "_comment": "Portable MCP server registry. Assumes the office-suite conda env is active and the working directory is the repo root. Server scripts self-inject their own subprocess PATH from sys.executable, so no absolute paths or env block are needed here. For Claude Code, copy .mcp.json.example to .mcp.json and use absolute paths instead.",
+  "mcpServers": {
+    "quarto": {
+      "command": "python",
+      "args": ["mcp_servers/quarto_mcp/server.py"]
+    },
+    "latex": {
+      "command": "python",
+      "args": ["mcp_servers/latex_mcp/server.py"]
+    },
+    "pdf-edit": {
+      "command": "python",
+      "args": ["mcp_servers/pdf_edit_mcp/server.py"]
+    },
+    "index": {
+      "command": "python",
+      "args": ["mcp_servers/index_mcp/server.py"]
+    },
+    "image": {
+      "command": "python",
+      "args": ["mcp_servers/image_mcp/server.py"]
+    },
+    "docx": {
+      "command": "python",
+      "args": ["mcp_servers/docx_mcp/server.py"]
+    }
+  }
+}

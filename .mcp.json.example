@@ -12,6 +12,30 @@
       "args": [
         "/ABSOLUTE/PATH/TO/ai-office-suite/mcp_servers/latex_mcp/server.py"
       ]
+    },
+    "pdf-edit": {
+      "command": "/ABSOLUTE/PATH/TO/conda/envs/office-suite/bin/python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/ai-office-suite/mcp_servers/pdf_edit_mcp/server.py"
+      ]
+    },
+    "index": {
+      "command": "/ABSOLUTE/PATH/TO/conda/envs/office-suite/bin/python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/ai-office-suite/mcp_servers/index_mcp/server.py"
+      ]
+    },
+    "image": {
+      "command": "/ABSOLUTE/PATH/TO/conda/envs/office-suite/bin/python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/ai-office-suite/mcp_servers/image_mcp/server.py"
+      ]
+    },
+    "docx": {
+      "command": "/ABSOLUTE/PATH/TO/conda/envs/office-suite/bin/python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/ai-office-suite/mcp_servers/docx_mcp/server.py"
+      ]
     }
   }
 }
