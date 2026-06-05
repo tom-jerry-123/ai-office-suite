@@ -6,10 +6,13 @@ dependencies:
   - python=3.12
   - quarto
   - tectonic
+  - pandoc          # docx_tool.py: md <-> docx (verified 3.8.3)
   - pip
   - pip:
-    - pymupdf
-    - pdfplumber
+    - pymupdf       # fitz: PDF edit/render (pdf_tool.py)
+    - pdfplumber    # PDF text extraction (index_tool.py)
+    - pillow        # image_tool.py (PIL) (verified 12.2.0)
+    - mcp           # MCP SDK: all 6 servers in mcp_servers/ (verified 1.27.2)
     - click
     - rich
     - pydantic
